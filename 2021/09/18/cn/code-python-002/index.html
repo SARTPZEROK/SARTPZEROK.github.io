@@ -443,14 +443,14 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-09-25
+                    2021-09-29
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    264
+                    186
                 </div>
                 
 
@@ -472,7 +472,7 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p><code>while 1:        list_letter=[&quot;a&quot;,&quot;b&quot;,&quot;c&quot;,&quot;d&quot;,&quot;e&quot;,&quot;f&quot;,&quot;g&quot;,&quot;h&quot;,&quot;i&quot;,&quot;j&quot;,&quot;k&quot;,&quot;l&quot;,&quot;m&quot;,&quot;n&quot;,&quot;o&quot;,&quot;p&quot;,&quot;q&quot;,&quot;r&quot;,&quot;s&quot;,&quot;t&quot;,&quot;u&quot;,&quot;v&quot;,&quot;w&quot;,&quot;x&quot;,&quot;y&quot;,&quot;z&quot;]        data_list=[]        final=&quot;&quot;        numl=26        key=input(&quot;1 加密\n2 解密&quot;)        if key==&quot;1&quot;:               text=input(&quot;:&quot;)               code=list(text)               num=len(code)               file=open(r&quot;C:\Users\admin\AppData\Local\Programs\Python\Python38-32\code——解密\diction&quot;,&quot;r&quot;)               data=file.read()               list_data=list(data)               for op in range(num):                      for oq in range(numl):                             if code[op]==list_letter[oq]:                                    code[op]=list_data[oq]                                    print(code)                      final=str(final)+str(code[op])               print(&quot;=-//sdop\|==&quot;,final)               file.close()        elif key==&quot;2&quot;:               text=input(&quot;:&quot;)               code=list(text)               if code[0]==&quot;=&quot;:                      del code[0:13]                      num=len(text)-13                      file=open(r&quot;C:\Users\admin\AppData\Local\Programs\Python\Python38-32\code——解密\diction&quot;,&quot;r&quot;)                      data=file.read()                      list_data=list(data)                      for op in range(num):                             for oq in range(numl):                                    if code[op]==list_data[oq]:                                           code[op]=list_letter[oq]                                           print(code)                             final=str(final)+str(code[op])                      print(final)                      file.close()               else:                      print(&quot;格式错误.&quot;)</code></p>
+                <p>while 1:<br>       list_letter=[“a”,”b”,”c”,”d”,”e”,”f”,”g”,”h”,”i”,”j”,”k”,”l”,”m”,”n”,”o”,”p”,”q”,”r”,”s”,”t”,”u”,”v”,”w”,”x”,”y”,”z”]<br>       data_list=[]<br>       final=””<br>       numl=26<br>       key=input(“1 加密\n2 解密”)<br>       if key==”1”:<br>              text=input(“:”)<br>              code=list(text)<br>              num=len(code)<br>              file=open(r”C:\Users\admin\AppData\Local\Programs\Python\Python38-32\code——解密\diction”,”r”)<br>              data=file.read()<br>              list_data=list(data)<br>              for op in range(num):<br>                     for oq in range(numl):<br>                            if code[op]==list_letter[oq]:<br>                                   code[op]=list_data[oq]<br>                                   print(code)<br>                     final=str(final)+str(code[op])<br>              print(“=-//sdop|==”,final)<br>              file.close()<br>       elif key==”2”:<br>              text=input(“:”)<br>              code=list(text)<br>              if code[0]==”=”:<br>                     del code[0:13]<br>                     num=len(text)-13<br>                     file=open(r”C:\Users\admin\AppData\Local\Programs\Python\Python38-32\code——解密\diction”,”r”)<br>                     data=file.read()<br>                     list_data=list(data)<br>                     for op in range(num):<br>                            for oq in range(numl):<br>                                   if code[op]==list_data[oq]:<br>                                          code[op]=list_letter[oq]<br>                                          print(code)<br>                            final=str(final)+str(code[op])<br>                     print(final)<br>                     file.close()<br>              else:<br>                     print(“格式错误.”)`</p>
 
                 
             </div>
